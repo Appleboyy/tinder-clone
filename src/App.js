@@ -1,14 +1,16 @@
 import './App.css';
 import React from 'react';
-import "./Header"
+import Header from './Header.js';
+import Cards from "./TinderCards"
+import SwipeButton from "./SwipeButton"
+
 
 function App() {
   return (
     <div className="app">
-      <h1>Testing</h1>
       <Header />
-      {/* Cards */}
-      {/* Buttons */}
+      <Cards />
+      <SwipeButton />
     </div>
   );
 }
